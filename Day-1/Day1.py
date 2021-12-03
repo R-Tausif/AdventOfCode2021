@@ -1,5 +1,6 @@
 file = open("Day1.txt")
 lines = file.read().splitlines()
+file.close()
 
 def count_increases(depth_array):
     prev_count = int(depth_array[0])
