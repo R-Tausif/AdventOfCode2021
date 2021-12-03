@@ -1,5 +1,6 @@
 file = open("Day2.txt")
 lines = file.read().splitlines()
+file.close()
 
 def submarine_position(list_of_instructions):
     horizontal_position = 0
